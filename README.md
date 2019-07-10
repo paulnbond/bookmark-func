@@ -1,7 +1,7 @@
 # Bookmark Fun
 
 **--Disclaimer--
-You should absolutely never run JavaScript functions you find on the web unless you fully understand them.**
+You should absolutely never run any code you find on the web unless you fully understand it. I can confirm that the code I have written in this repository has no malicious intent. However it is my duty to insist you do not run any code you do not fully understand.**
 
 A bunch of JavaScript functions to add to bookmarks so that they can be easily run on web pages.
 
