@@ -5,6 +5,12 @@ javascript:(function(){
             head.style.setProperty(head.style[i], "#333");
     }
 
+    [...document.querySelectorAll(".o365cs-base,.o365sx-button")].forEach(
+        (a) => {
+            a.style.backgroundColor = '#333';
+        }
+    );
+
     [...document.getElementsByTagName("a")].forEach(
         (a) => {
             if (a.href === "https://windows.microsoft.com/outlook/ad-free-outlook") 
@@ -12,4 +18,3 @@ javascript:(function(){
         }
     );
 })();
-
