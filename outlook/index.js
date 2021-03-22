@@ -12,10 +12,10 @@ javascript:(function(){
         }
     );
 
-    [...document.getElementsByTagName("a")].forEach(
+    [...document.getElementsByTagName("i")].forEach(
         (a) => {
-            if (a.href === "https://windows.microsoft.com/outlook/ad-free-outlook") 
-                a.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+            if (a.hasAttribute("data-icon-name") && a.getAttribute("data-icon-name") === "OutlookLogo") 
+                a.parentElement.parentElement.parentElement.style.display = "none";
         }
     );
 })();
